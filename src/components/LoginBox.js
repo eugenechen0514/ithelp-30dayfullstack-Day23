@@ -5,6 +5,7 @@ class LoginBox extends Component {
     return (
       <div>
         message: {this.props.message}
+        <button onClick={this.props.onClickSubmit}>Submit</button>
       </div >
     );
   }
