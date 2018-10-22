@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LoginBox from './containers/LoginBox'
 import './App.css';
 
 class App extends Component {
@@ -99,6 +100,7 @@ class App extends Component {
     return (
       <div className="App" >
         Hello React: {this.state.name}
+        <LoginBox />
       </div >
     );
   }
