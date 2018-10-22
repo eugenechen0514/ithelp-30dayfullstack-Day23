@@ -1,7 +1,9 @@
 import { connect } from 'react-redux';
 import LobinBox from '../components/LoginBox'
 const mapStateToProps = (state) => {
-    return {};
+    return {
+        message: state.message,
+    };
 };
 
 const mapDispatchToProps = (dispatch) => {
